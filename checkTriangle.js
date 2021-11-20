@@ -11,7 +11,7 @@ function checkTriangle(){
     if(sumOfAngles===180){
         output.innerText = "Angles forms a triangle";
     }else{
-        output.innerTexts = "Angles dont from a triangle";
+        output.innerText = "Angles dont from a triangle";
     }
 }
 
