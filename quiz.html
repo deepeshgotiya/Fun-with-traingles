@@ -6,9 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
 </head>
 
 <body>
+    <nav>
+        <li>
+            <a href="checkTriangle.html" class="nav-link">Check Triangle</a>
+            <a href="quiz.html" class="nav-link">Triangle Quiz</a>
+            <a href="hypotenuse.html" class="nav-link">Calculate Hypotenuse</a>
+            <a href="triangleArea.html" class="nav-link">Calculate Area </a>
+        </li>
+    </nav>
+    <h1>Triangle Quiz</h1>
     <form class="quiz-form">
         <div class="question-container">
             <p>What is the name of the segment that joins the midpoints of the sides of a triangle?</p>
@@ -16,6 +27,7 @@
             <label><input type="radio" value="Midsegment" name="question1">Midsegment</label>
             <label><input type="radio" value="Vertex" name="question1">Vertex</label>
         </div>
+        <br>
         <div class="question-container">
             <p>What is it called when three or more lines intersect at the same point?</p>
             <label><input type="radio" value="Concurrent" name="question2">Concurrent</label>

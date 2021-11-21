@@ -1,0 +1,37 @@
+*{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.question-container{
+    border: 2px solid black;
+    width: 70%;
+    margin: auto;
+    display: block;
+    height: 30vh;
+    padding:1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+#submit-answer{
+    display: block;
+    margin: auto;
+    border-radius: 0.4rem;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    background-color: violet;
+}
+#outputDiv{
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    padding-top: 1rem;
+    width: 30%;
+    display: block;
+    margin: auto;
+    
+}

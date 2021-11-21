@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkTriangle.css">
 </head>
+
 <body>
+    <nav>
+        <li>
+            <a href="checkTriangle.html" class="nav-link">Check Triangle</a>
+            <a href="quiz.html" class="nav-link">Triangle Quiz</a>
+            <a href="hypotenuse.html" class="nav-link">Calculate Hypotenuse</a>
+            <a href="triangleArea.html" class="nav-link">Calculate Area </a>
+        </li>
+    </nav>
     <h1>Is Triangle?</h1>
-    <label for="angle1">Angle1</label>
-    <input type="number" class="angle-input">
-    <label for="angle2">Angle2</label>
-    <input type="number" class="angle-input">
-    <label for="angle3">Angle3</label>
-    <input type="number" class="angle-input">
-    <button id="check-triangle">Check</button>
-    <div id="output-box"></div>
+    <div class="mainContainer">
+        <label for="angle1">Angle1:</label>
+        <input type="number" placeholder="Enter angle 1" class="angle-input">
+        <label for="angle2">Angle2:</label>
+        <input type="number"   placeholder="Enter angle 2"class="angle-input">
+        <label for="angle3">Angle3:</label>
+        <input type="number"   placeholder="Enter angle 3"class="angle-input">
+        <button id="check-triangle">Check</button>
+        <div id="output-box"></div>
+    </div>
+
     <script src="checkTriangle.js"></script>
 </body>
+
 </html>

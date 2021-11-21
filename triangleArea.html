@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area of a triangle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="triangleArea.css">
 </head>
+
 <body>
+    <nav>
+        <li>
+            <a href="checkTriangle.html" class="nav-link">Check Triangle</a>
+            <a href="quiz.html" class="nav-link">Triangle Quiz</a>
+            <a href="hypotenuse.html" class="nav-link">Calculate Hypotenuse</a>
+            <a href="triangleArea.html" class="nav-link">Calculate Area </a>
+        </li>
+    </nav>
     <h1>Finding area of a triangle</h1>
-    <label>base</label>
-    <input type="number" class="input-value">
-    <label>height</label>
-    <input type="number" class="input-value">
-    <button id="A-button">Calculate Area</button>
-    <div id="A-output"></div>
+    <div class="mainContainer">
+        <label>Base</label>
+        <input type="number" class="input-value" placeholder="Enter the value of base">
+        <label>Height</label>
+        <input type="number" class="input-value" placeholder="Enter the value of height">
+        <button id="A-button">Calculate Area</button>
+        <div id="A-output"></div>
+    </div>
     <script src="triangleArea.js"></script>
 </body>
 </html>

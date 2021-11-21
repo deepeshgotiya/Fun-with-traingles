@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hypotenuse.css">
 </head>
 <body>
-    <label>a</label>
-    <input type="number" class="side-value">
-    <label>b</label>
-    <input type="number" class="side-value">
-    <button id="calculateBtn">Calculate</button>
-    <div id="H-output"></div>
+    <nav>
+        <li>
+            <a href="checkTriangle.html" class="nav-link">Check Triangle</a>
+            <a href="quiz.html" class="nav-link" >Triangle Quiz</a>
+            <a href="hypotenuse.html"  class="nav-link">Calculate Hypotenuse</a>
+            <a href="triangleArea.html"  class="nav-link">Calculate Area </a>
+        </li>
+    </nav>
+    <h1>Calculating the Hypotenuse</h1>
+    <div class="mainContainer">
+        <label>Side 1</label>
+        <input type="number" placeholder="Enter the value of Side 1" class="side-value">
+        <label>Side 2</label>
+        <input type="number" placeholder="Enter the value of Side 2" class="side-value">
+        <button id="calculateBtn">Calculate</button>
+        <div id="H-output"></div>
+    </div>
     <script src="hypotenuse.js"></script>
 </body>
 </html>
