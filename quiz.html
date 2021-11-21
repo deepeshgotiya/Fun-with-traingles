@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+
+<body>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>What is the name of the segment that joins the midpoints of the sides of a triangle?</p>
+            <label><input type="radio" value="Median" name="question1">Median</label>
+            <label><input type="radio" value="Midsegment" name="question1">Midsegment</label>
+            <label><input type="radio" value="Vertex" name="question1">Vertex</label>
+        </div>
+        <div class="question-container">
+            <p>What is it called when three or more lines intersect at the same point?</p>
+            <label><input type="radio" value="Concurrent" name="question2">Concurrent</label>
+            <label><input type="radio" value="Equilateral" name="question2">Equilateral</label>
+            <label><input type="radio" value="Equiangular" name="question2">Equiangular</label>
+        </div>
+    </form>
+    <button id="submit-answer">Submit Answer</button>
+    <div id="outputDiv"></div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
