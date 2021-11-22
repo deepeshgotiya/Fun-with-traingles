@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="quiz.css">
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <li>
             <a href="index.html" class="nav-link">Check Triangle</a>
             <a href="quiz.html" class="nav-link">Triangle Quiz</a>
@@ -30,9 +30,9 @@
         <br>
         <div class="question-container">
             <p>What is it called when three or more lines intersect at the same point?</p>
-            <label><input type="radio" value="Concurrent" name="question2">Concurrent</label>
-            <label><input type="radio" value="Equilateral" name="question2">Equilateral</label>
-            <label><input type="radio" value="Equiangular" name="question2">Equiangular</label>
+            <label><input  class="radio-input" type="radio" value="Concurrent" name="question2">Concurrent</label>
+            <label><input class="radio-input"  type="radio" value="Equilateral" name="question2">Equilateral</label>
+            <label><input  class="radio-input" type="radio" value="Equiangular" name="question2">Equiangular</label>
         </div>
     </form>
     <button id="submit-answer">Submit Answer</button>

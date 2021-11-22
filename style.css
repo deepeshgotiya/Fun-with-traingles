@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
-    background-color:#848FF0;
+    /* background-color:#848FF0; */
     color: #831843;
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -8,47 +8,58 @@
 }
 h1{
     text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 0.5rem;
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
 }
-nav{
-    text-align: left;
+.navbar{
+    background-color: blue;
+    color: white;
     width: 100%;
-    border-bottom-left-radius: 1rem;
+    height: 10vh;
+    padding-left: 1rem;
+    text-align: start;
+    border-bottom-left-radius: 2rem;
 }
 .nav-link{
     color: white;
     font-weight: bold;
     text-decoration:none;
     width: 2rem;
-    background-color: #000957;
+    padding: 1rem 1rem;
+    /* background-color: #000957; */
     border-radius: 1rem;
-    align-items:start;
-    margin: 1rem;
-    padding: 0rem 1rem;
+    text-align:center;
+    /* margin: 1rem;
+    padding: 0rem 1rem; */
 
-}
-li{
-    background-color: #000957;
-    width: 100%;
-    height: 12vh;
-    text-align: start;
-}
-input,label{
-    font-size: 1rem;
-    font-weight: bolder;
-    display: block;
-    margin: auto;
-    width: 100%;
-    font-size: 1rem;
-    font-weight: bold;
 }
 .mainContainer{
     width: 70vw;
     height: 50vh;
-    margin: auto;
+    margin: 1rem auto;
     padding:1rem;
     align-items: center;
     text-align: center;
     border:2px solid black;
     border-radius: 1rem;
     box-shadow: 10px 10px 8px -7px rgba(0,0,0,0.43);
+}
+input,label{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 1rem;
+    display: block;
+    margin: 1rem auto;
+    text-align: start;
+}
+input{
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
 }

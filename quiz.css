@@ -1,14 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    /* background-color:#848FF0; */
+    color: #831843;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 0.5rem;
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+}
+.navbar{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    padding-left: 1rem;
+    text-align: start;
+    border-bottom-left-radius: 2rem;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+    width: 2rem;
+    padding: 1rem 1rem;
+    /* background-color: #000957; */
+    border-radius: 1rem;
+    text-align:center;
+    /* margin: 1rem;
+    padding: 0rem 1rem; */
+
+}
 *{
     font-size: 1rem;
     font-weight: bold;
 }
 
 .question-container{
-    border: 2px solid black;
-    width: 70%;
+    border: 2px solid blue;
+    width: 60%;
     margin: auto;
     display: block;
-    height: 30vh;
+    height: 20vh;
     padding:1rem;
     text-align: center;
     border-radius: 1rem;
@@ -29,9 +68,16 @@ h1{
     font-size: 1.2rem;
     text-align: center;
     color: black;
+    
     padding-top: 1rem;
     width: 30%;
     display: block;
     margin: auto;
     
+}
+input{
+    margin: 3rem auto;
+}
+label{
+    padding: 1.4rem;
 }

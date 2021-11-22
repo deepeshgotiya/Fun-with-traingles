@@ -15,11 +15,6 @@
     font-size: 1rem;
     font-weight: bold;
 }
-input,label{
-    font-size: 1rem;
-    font-weight: bolder
-}
-
  #output-box{
      text-align: center;
      color: black;
