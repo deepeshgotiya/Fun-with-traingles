@@ -2,7 +2,7 @@ const submitBtn = document.querySelector("#submit-answer")
 const scoreBox = document.querySelector("#outputDiv")
 const formDataValues = document.querySelector(".quiz-form")
 
-const rightAnswers = ["Midsegment","Equilateral"];
+const rightAnswers = ["Midsegment","Equilateral","Right","Acute1","Equilateral"];
 
 function calcultateScore(){
     let index = 0;

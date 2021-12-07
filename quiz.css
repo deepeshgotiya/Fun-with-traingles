@@ -44,11 +44,9 @@ h1{
 
 .question-container{
     border: 2px solid blue;
-    width: 60%;
-    margin: auto;
+    max-width: 80%;
+    margin:  1rem auto;
     display: block;
-    height: 20vh;
-    padding:1rem;
     text-align: center;
     border-radius: 1rem;
 }
@@ -80,4 +78,7 @@ input{
 }
 label{
     padding: 1.4rem;
+}
+.quiz-form{
+    text-align: center;
 }
